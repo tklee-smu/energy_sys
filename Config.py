@@ -10,10 +10,7 @@ def create_config_file(filename):
         'Input_Path': 'C:\\Users\\tklee\\Desktop\\IASYSTEM\\INPUT\\',
         'Temperature_Input_Filename': 'PRED_TEM_HOUR.csv',
         'Humidity_Input_Filename': 'PRED_HUM_HOUR.csv',
-        'Radiation_Input_Filename': 'PRED_RAD_HOUR.csv',
         'EC_Min_Input_Filename': 'NEW_EC_MIN.csv',
-        'PV_Min_Input_Filename': 'NEW_PV_MIN.csv',
-        'RAD_Hour_Input_Filename': 'NEW_RAD_HOUR.csv',
         'TEM_Hour_Input_Filename': 'NEW_TEM_HOUR.csv',
         'HUM_Hour_Input_Filename': 'NEW_HUM_HOUR.csv'
     }
@@ -24,11 +21,11 @@ def create_config_file(filename):
         'Table_path': 'C:\\Users\\tklee\\Desktop\\IASYSTEM\\STORAGE\\',
         'ED_Table_Filename': 'ED_TABLE.csv',
         'Hybrid_Table_Filename': 'HYBRID_TABLE.csv',
-        'PV_Hourly_Table_Filename': 'PV_HOUR_TABLE.csv',
         'EC_Min_Table_Filename': 'EC_MIN_TABLE.csv',
         'EC_Daily_Table_Filename': 'EC_DAY_TABLE.csv',
+        'EC_Hourly_Table_Filename' : 'EC_HOUR_TABLE.csv',
+        'TEM_Hourly_Table_Filename' : 'TEM_HOUR_TABLE.csv',
         'WD_Hourly_Table_Filename': 'WD_HOUR_TABLE.csv',
-        'RAD_Hourly_Table_Filename': 'RAD_HOUR_TABLE.csv',
         'Temperature_Profile_Storage_Path': 'C:\\Users\\tklee\\Desktop\\IASYSTEM\\STORAGE\\WD\\TEM\\',
         'Humidity_Profile_Storage_Path': 'C:\\Users\\tklee\\Desktop\\IASYSTEM\\STORAGE\\WD\\HUM\\'
     }
